@@ -1,0 +1,10 @@
+.box {
+  -webkit-clip-path: polygon(0 0, 100% 30%, 100% 70%, 0 100%);
+  clip-path: polygon(0 0, 100% 30%, 100% 70%, 0 100%);
+  background: #333;
+}
+/*
+clipを使って斜めにする色付き箱を斜めにしてかっこよくする小技
+clip-path: polygon(左上のxy座標,右上,右下,左下)
+https://www.webcreatorbox.com/wp-content/uploads/2017/10/clippath-768x477.jpg
+*/
