@@ -1,51 +1,10 @@
 <!--https://www.monotalk.xyz/blog/amp-%E3%81%AE-html-%E3%81%AB-disqus-%E3%82%92%E7%B5%84%E3%81%BF%E8%BE%BC%E3%82%80/-->
-<!--<div id="disqus_thread"></div>
-<script>
-window.addEventListener('message', receiveMessage, false);
-function receiveMessage(event)
-{
-    if (event.data) {
-        var msg;
-        try {
-            msg = JSON.parse(event.data);
-        } catch (err) {
-            // Do nothing
-        }
-        if (!msg)
-            return false;
-
-        if (msg.name === 'resize' || msg.name === 'rendered') {
-            window.parent.postMessage({
-              sentinel: 'amp',
-              type: 'embed-size',
-              height: msg.data.height
-            }, '*');
-        }
+<style>
+@media (prefers-color-scheme: dark){
+    #disqus_thread{
+        color:white;
     }
 }
-</script>
-<script>
-    /**
-     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
-     */
-    var disqus_config = function () {
-        this.page.url = "https://ckenjo.blogspot.com" + (new URL(window.location)).searchParams.get("url");  // Replace PAGE_URL with your page's canonical URL variable
-        var hash = window.location.hash;
-        if (hash.length > 0) {
-            hash = hash.slice(1);
-        }
-        this.page.identifier = hash;
-    };
-    (function() {  // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-
-        s.src = 'https://ckenjo.disqus.com/embed.js';
-
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>-->
 <div id="disqus_thread"></div>
 <script>
 window.addEventListener('message', receiveMessage, false);
