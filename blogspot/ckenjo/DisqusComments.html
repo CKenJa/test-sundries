@@ -1,3 +1,4 @@
+<!--https://www.monotalk.xyz/blog/amp-%E3%81%AE-html-%E3%81%AB-disqus-%E3%82%92%E7%B5%84%E3%81%BF%E8%BE%BC%E3%82%80/-->
 <div id="disqus_thread"></div>
 <script>
 window.addEventListener('message', receiveMessage, false);
@@ -29,8 +30,12 @@ function receiveMessage(event)
      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
      */
     var disqus_config = function () {
-        this.page.url = window.location;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = window.location.hash; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.url = "https://www.monotalk.xyz" + (new URL(window.location)).searchParams.get("url");  // Replace PAGE_URL with your page's canonical URL variable
+        var hash = window.location.hash;
+        if (hash.length > 0) {
+            hash = hash.slice(1);
+        }
+        this.page.identifier = hash;
     };
     (function() {  // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
