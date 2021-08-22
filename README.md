@@ -1,2 +1,2 @@
 # test-sundries
-[Gitmojiの日本語化](gitmoji-jp)
+[Gitmojiの日本語化](gimoji-jp)
