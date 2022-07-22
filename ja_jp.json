@@ -1417,7 +1417,7 @@
     "create.boiler.via_one_engine": "1つのエンジン経由",
     "create.boiler.via_engines": "%1$sつのエンジン経由",
 
-    "create.gui.schedule.lmb_edit": “左クリックで編集",
+    "create.gui.schedule.lmb_edit": "左クリックで編集",
     "create.gui.schedule.rmb_remove": "右クリックで削除",
     "create.gui.schedule.duplicate": "複製",
     "create.gui.schedule.remove_entry": "動作を削除",
@@ -1449,14 +1449,14 @@
     "create.schedule.condition.delay": "待機する",
     "create.schedule.condition.delay_short": "待機: %1$s",
     "create.schedule.condition.delay.status": "出発まで%1$s",
-    "create.schedule.condition.idle": "貨物のやりとりが停止しているなら,
+    "create.schedule.condition.idle": "貨物のやりとりが停止しているなら",
     "create.schedule.condition.idle_short": "貨物のやりとりが停止: %1$s",
     "create.schedule.condition.idle.status": "%1$s貨物のやりとりが停止",
     "create.schedule.condition.for_x_time": "%1$s間",
     "create.schedule.condition.unloaded": "チャンクロードが解除されたら",
     "create.schedule.condition.unloaded.status": "チャンクアンロードを待っています",
     "create.schedule.condition.powered": "駅がレッドストーン信号を受けたら",
-    "create.schedule.condition.powered.status": "レッドストーン信号を待っています,
+    "create.schedule.condition.powered.status": "レッドストーン信号を待っています",
     "create.schedule.condition.time_of_day": "時刻",
     "create.schedule.condition.time_of_day.scheduled": "予定時間: %1$s",
     "create.schedule.condition.time_of_day.digital_format": "%1$s:%3$s %4$s",
@@ -2340,8 +2340,8 @@
     "create.ponder.display_board.header": "ディスプレイボードの使い方",
     "create.ponder.display_board.text_1": "ディスプレイボードは看板に代わるより拡張性の高いブロックです",
     "create.ponder.display_board.text_2": "稼働させるためには回転力が必要です",
-    "create.ponder.display_board.text_3": "テキストの表示は名札を使うか..."
-    "create.ponder.display_board.text_4": "ディスプレイリンクを通して行えます"
+    "create.ponder.display_board.text_3": "テキストの表示は名札を使うか...",
+    "create.ponder.display_board.text_4": "ディスプレイリンクを通して行えます",
     "create.ponder.display_board.text_5": "ボードは、列ごとにそれぞれ染料で染色できます",
     "create.ponder.display_board.text_6": "素手で右クリックすると、テキストを消せます",
 
