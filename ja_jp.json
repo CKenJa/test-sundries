@@ -1324,6 +1324,7 @@
     "create.tooltip.stressImpact.medium": "中",
     "create.tooltip.stressImpact.high": "高",
     "create.tooltip.stressImpact.overstressed": "応力超過",
+    "create.tooltip.up_to": "最大%1$s",
     "create.tooltip.capacityProvided": "許容応力: %1$s",
     "create.tooltip.capacityProvided.low": "小",
     "create.tooltip.capacityProvided.medium": "中",
